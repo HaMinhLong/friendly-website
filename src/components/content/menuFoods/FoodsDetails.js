@@ -12,12 +12,17 @@ function FoodsDetails() {
       <div className='content'>
 
       <div className='box'>
+        <div className='front'>
           <div className='imgBx'>
             <img src={menu1} alt='menu1'/>
           </div>
           <div className='text'>
             <h3>Special Salads</h3>
           </div>
+        </div>
+        <div className='back'>
+          <h3>Friendly Food</h3>
+        </div>
       </div>
 
       <div className='box'>
@@ -49,11 +54,16 @@ function FoodsDetails() {
       </div>
 
       <div className='box'>
-        <div className='imgBx'>
-          <img src={menu4} alt='menu4'/>
+        <div className='front'>
+          <div className='imgBx'>
+            <img src={menu4} alt='menu4'/>
+          </div>
+          <div className='text'>
+            <h3>Special Salads</h3>
+          </div>
         </div>
-        <div className='text'>
-          <h3>Special Salads</h3>
+        <div className='back'>
+          <h3>Friendly Food</h3>
         </div>
       </div>
 
@@ -66,7 +76,7 @@ function FoodsDetails() {
             <h3>Special Soup</h3>
           </div>
           </div>
-        <div className='back'>
+          <div className='back'>
           <h3>Friendly Food</h3>
         </div>
       </div>
