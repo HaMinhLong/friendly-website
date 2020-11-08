@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <header>
-      <a href='#' className='logo'>Friendly Food <span>.</span></a>
+      <a href='#home' className='logo'>Friendly Food <span>.</span></a>
       <ul className='navigation'>
         <li><a href='#banner'>Home</a></li>
         <li><a href='#about'>About</a></li>
