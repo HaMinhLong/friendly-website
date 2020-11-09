@@ -25,7 +25,7 @@ header {
   z-index: 1000;
 }
 header.sticky {
-  background: #fff;
+  background: rgba(255, 255, 255, .5);
   padding: 10px 100px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
 }
@@ -426,4 +426,110 @@ header .navigation li a:hover {
   color: #ff0157;
   font-weight: 500;
   text-decoration: none;  
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  header,
+  header.sticky {
+    padding: 10px 20px;
+  }
+  header .navigation {
+    display: none;
+  }
+  header .navigation.active {
+    width: 100%;
+    height: 52%;
+    position: fixed;
+    top: 68px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, .8);
+  }
+  header .navigation li {
+    margin-left: 0;
+  }
+  header .navigation li a {
+    color: #111;
+    font-size: 1.6em;
+    font-weight: 400;
+  }
+  .menu-toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url('./images/menu.png');
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #111;
+  }
+  .menu-toggle.active {
+    background: url('./images/close.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center ;
+  }
+  header.sticky .menu-toggle{
+    filter: invert(1);
+  }
+  .about,
+  .menu,
+  .expert,
+  .testimonials,
+  .contact {
+    padding: 20px;
+  }
+  .banner .content h2 {
+    font-size: 3em;
+    color: #fff;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .col50 {
+    position: relative;
+    width: 100%;
+  }
+  .row .col50 .imgBx {
+    height: 300px;
+    margin-top: 20px;
+  }
+  .menu .content {
+    margin-top: 20px;
+  }
+  .menu .content .box {
+    margin: 10px;
+  }
+  .menu .content .box .imgBx {
+    height: 260px;
+  }
+  .title {
+    text-align: center;
+  }
+  .title-text {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .testimonials .content .box {
+    margin: 10px;
+    padding: 20px;
+  }
+  .contact .contact-form {
+    padding: 20px 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner .content h2 {
+    font-size: 2.1em;
+    color: #fff;
+  }
 }
