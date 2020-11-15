@@ -7,7 +7,7 @@ function TestimonialsDetails() {
   return (
     <>
      <div className='content'>
-        <div className='box'>
+        <div className='box' id='box1-testi'>
           <div className='imgBx'>
             <img src={testimonials1} alt='testimonials 1'/>
           </div>
@@ -23,7 +23,7 @@ function TestimonialsDetails() {
           </div>
         </div>
 
-        <div className='box'>
+        <div className='box' id='box2-testi'>
           <div className='imgBx'>
             <img src={testimonials2} alt='testimonials 2'/>
           </div>
@@ -40,7 +40,7 @@ function TestimonialsDetails() {
         </div>
 
 
-        <div className='box'>
+        <div className='box' id='box3-testi'>
           <div className='imgBx'>
             <img src={testimonials3} alt='testimonials 3'/>
           </div>

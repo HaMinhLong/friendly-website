@@ -11,7 +11,7 @@ function FoodsDetails() {
     <>
       <div className='content'>
 
-      <div className='box'>
+      <div className='box box1'>
         <div className='front'>
           <div className='imgBx'>
             <img src={menu1} alt='menu1'/>
@@ -25,7 +25,7 @@ function FoodsDetails() {
         </div>
       </div>
 
-      <div className='box'>
+      <div className='box box2'>
         <div className='front'>
           <div className='imgBx'>
             <img src={menu2} alt='menu2'/>
@@ -39,7 +39,7 @@ function FoodsDetails() {
         </div>
       </div>
 
-      <div className='box'>
+      <div className='box box3'>
         <div className='front'>
           <div className='imgBx'>
             <img src={menu3} alt='menu3'/>
@@ -53,7 +53,7 @@ function FoodsDetails() {
         </div>
       </div>
 
-      <div className='box'>
+      <div className='box box4'>
         <div className='front'>
           <div className='imgBx'>
             <img src={menu4} alt='menu4'/>
@@ -67,7 +67,7 @@ function FoodsDetails() {
         </div>
       </div>
 
-      <div className='box'>
+      <div className='box box5'>
         <div className='front'>
           <div className='imgBx'>
             <img src={menu5} alt='menu5'/>
@@ -81,7 +81,7 @@ function FoodsDetails() {
         </div>
       </div>
 
-      <div className='box'>
+      <div className='box box6'>
         <div className='front'>
           <div className='imgBx'>
             <img src={menu6} alt='menu6'/>

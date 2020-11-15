@@ -8,7 +8,7 @@ function ExpertsDetails() {
   return (
     <div>
       <div className='content'>
-        <div className='box'>
+        <div className='box box1-expert'>
           <div className='imgBx'>
             <img src={expert1} alt='expert famous'/>
           </div>
@@ -17,7 +17,7 @@ function ExpertsDetails() {
           </div>
         </div>
 
-        <div className='box'>
+        <div className='box box2-expert'>
           <div className='imgBx'>
             <img src={expert2} alt='expert famous' />
           </div>
@@ -26,7 +26,7 @@ function ExpertsDetails() {
           </div>
         </div>
 
-        <div className='box'>
+        <div className='box box3-expert'>
           <div className='imgBx'>
             <img src={expert3} alt='expert famous' />
           </div>
@@ -35,7 +35,7 @@ function ExpertsDetails() {
           </div>
         </div>
 
-        <div className='box'>
+        <div className='box box4-expert'>
           <div className='imgBx'>
             <img src={expert4} alt='expert famous' />
           </div>
