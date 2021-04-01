@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/friendly-website/static/css/main.d5dd37da.chunk.css",
+    "main.js": "/friendly-website/static/js/main.d85b1a05.chunk.js",
+    "main.js.map": "/friendly-website/static/js/main.d85b1a05.chunk.js.map",
+    "runtime-main.js": "/friendly-website/static/js/runtime-main.d7328061.js",
+    "runtime-main.js.map": "/friendly-website/static/js/runtime-main.d7328061.js.map",
+    "static/js/2.5c57feab.chunk.js": "/friendly-website/static/js/2.5c57feab.chunk.js",
+    "static/js/2.5c57feab.chunk.js.map": "/friendly-website/static/js/2.5c57feab.chunk.js.map",
+    "index.html": "/friendly-website/index.html",
+    "static/css/main.d5dd37da.chunk.css.map": "/friendly-website/static/css/main.d5dd37da.chunk.css.map",
+    "static/js/2.5c57feab.chunk.js.LICENSE.txt": "/friendly-website/static/js/2.5c57feab.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/friendly-website/static/media/bg3.3c991aea.jpg",
+    "static/media/expert1.fa63a1da.jpg": "/friendly-website/static/media/expert1.fa63a1da.jpg",
+    "static/media/expert2.65f6940d.jpg": "/friendly-website/static/media/expert2.65f6940d.jpg",
+    "static/media/expert3.a7cba01c.jpg": "/friendly-website/static/media/expert3.a7cba01c.jpg",
+    "static/media/expert4.ccf382a6.jpg": "/friendly-website/static/media/expert4.ccf382a6.jpg",
+    "static/media/img1.68684fe8.jpg": "/friendly-website/static/media/img1.68684fe8.jpg",
+    "static/media/menu1.781bf631.jpg": "/friendly-website/static/media/menu1.781bf631.jpg",
+    "static/media/menu2.9923f770.jpg": "/friendly-website/static/media/menu2.9923f770.jpg",
+    "static/media/menu3.0ec7abef.jpg": "/friendly-website/static/media/menu3.0ec7abef.jpg",
+    "static/media/menu4.5bf31b5e.jpg": "/friendly-website/static/media/menu4.5bf31b5e.jpg",
+    "static/media/menu5.c5c449ff.jpg": "/friendly-website/static/media/menu5.c5c449ff.jpg",
+    "static/media/menu6.f856f91d.jpg": "/friendly-website/static/media/menu6.f856f91d.jpg",
+    "static/media/testi2.4680f295.jpg": "/friendly-website/static/media/testi2.4680f295.jpg",
+    "static/media/testi3.7951c9da.jpg": "/friendly-website/static/media/testi3.7951c9da.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7328061.js",
+    "static/js/2.5c57feab.chunk.js",
+    "static/css/main.d5dd37da.chunk.css",
+    "static/js/main.d85b1a05.chunk.js"
+  ]
+}
